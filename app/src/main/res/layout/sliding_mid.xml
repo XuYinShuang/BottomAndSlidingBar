@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhiyuan3g.bottomandslidingbar.view.BoundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                style="@style/TableTow"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    style="@style/ImageView"
+                    android:src="@drawable/icon_home" />
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    style="@style/TextView"
+                    android:text="home" />
+            </TableRow>
+            <TableRow
+                style="@style/TableTow"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    style="@style/ImageView"
+                    android:src="@drawable/icon_profile" />
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    style="@style/TextView"
+                    android:text="profile" />
+            </TableRow>
+            <TableRow
+                style="@style/TableTow"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    style="@style/ImageView"
+                    android:src="@drawable/icon_calendar" />
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    style="@style/TextView"
+                    android:text="calendar" />
+            </TableRow>
+            <TableRow
+                style="@style/TableTow"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    style="@style/ImageView"
+                    android:src="@drawable/icon_settings" />
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    style="@style/TextView"
+                    android:text="settings" />
+            </TableRow>
+        </TableLayout>
+
+    </com.zhiyuan3g.bottomandslidingbar.view.BoundScrollView>
+</LinearLayout>
